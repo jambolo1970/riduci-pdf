@@ -10,9 +10,12 @@ Lo script poi trasformerà a seconda delle necessita in due tipi di compressione
 Guarda il video dimostrativo su [YouTube]([https://www.youtube.com/watch?v=4RtZ3rLAkbQ](https://youtu.be/4RtZ3rLAkbQ).
 
 [![Guarda il Video su YouTube di come OpenSuse comprime il file](https://img.youtube.com/vi/4RtZ3rLAkbQ/0.jpg)]([https://www.youtube.com/watch?v=4RtZ3rLAkbQ])
+- Nel video i Passaggi grafici su come comprime il file pdf generato da Xsane (valido solo per OpenSuse)
 
-[Qui invece come risolvere con lo script la compressione in 2 modalità]([https://www.youtube.com/channel/UC2ODtlWig0Dbi-XXYuNDq0w/community?lb=UgkxBdaCoFBE2dySVXndFRKz-3yDBEcdxON6])
+Qui invece come risolvere con lo script la compressione in 2 modalità
+[YouTube]([https://www.youtube.com/channel/UC2ODtlWig0Dbi-XXYuNDq0w/community?lb=UgkxBdaCoFBE2dySVXndFRKz-3yDBEcdxON6])(https://www.youtube.com/channel/UC2ODtlWig0Dbi-XXYuNDq0w/community?lb=UgkxBdaCoFBE2dySVXndFRKz-3yDBEcdxON6).
 [!(https://yt3.ggpht.com/EI87UMp1Ae6zsoyxw2EoTfR02vDUSGNxscr1IeVw0gieiqNnBaDqjISZKfY2CEzMYd9DxmS5GZk8-w=s215-c-fcrop64=1,41500000beafffff-rw-nd-v1)]([https://www.youtube.com/channel/UC2ODtlWig0Dbi-XXYuNDq0w/community?lb=UgkxBdaCoFBE2dySVXndFRKz-3yDBEcdxON6])
+- In questo articolo sono descritti i passaggi su OpenSuse per creare un icona di lancio dello script.
 
 ## Funzionalità
 - **Compressione normale**: utilizza `pdf2ps` e `ps2pdf` per ridurre la dimensione del file PDF.
@@ -20,7 +23,7 @@ Guarda il video dimostrativo su [YouTube]([https://www.youtube.com/watch?v=4RtZ3
 - **Notifiche desktop**: lo script invia una notifica al vassoio di sistema con l'esito della compressione.
 
 ## Requisiti
-- Linux (testato su Linux Mint e openSUSE)
+- Linux (testato su Linux Mint che openSUSE)
 - Ghostscript (`gs`)
 - `notify-send` (parte di `libnotify-bin`)
 - `poppler-utils` (per `pdf2ps` e `ps2pdf`)
@@ -36,6 +39,6 @@ sudo apt install ghostscript libnotify-bin poppler-utils
 #### Su OpenSuse
 o tramite Yast o a terminale
 ```bash
-sudo zypper install ghostscript libnotify-tools poppler-tools
+sudo zypper install ghostscript libnotify-tools poppler-tools xsane
 ```
 
