@@ -34,7 +34,7 @@ Qui invece come risolvere con lo script la compressione in 2 modalità
 #### Su distribuzioni Debian-based (ad esempio, Ubuntu e Linux Mint):
 ```bash
 sudo apt update
-sudo apt install ghostscript libnotify-bin poppler-utils
+sudo apt install ghostscript libnotify-bin poppler-utils xsane
 ```
 #### Su OpenSuse
 o tramite Yast o a terminale
