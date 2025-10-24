@@ -18,8 +18,10 @@ Qui invece come risolvere con lo script la compressione in 2 modalità
 - In questo articolo sono descritti i passaggi su OpenSuse per creare un icona di lancio dello script.
 
 ## Funzionalità
-- **Compressione normale**: utilizza `pdf2ps` e `ps2pdf` per ridurre la dimensione del file PDF.
-- **Compressione maggiore**: utilizza Ghostscript con impostazioni avanzate per una compressione più aggressiva.
+- **Compressione normale**: utilizza `pdf2ps` e `ps2pdf` per ridurre la dimensione del file PDF, ed ha una qualità molto alta
+- **Compressione maggiore**: utilizza Ghostscript con impostazioni avanzate per una compressione più aggressiva, ed è simile alla ristampa in OpenSuse del file ogirinale in pdf.
+- **Compressione Massima** : utilizza Ghostscript riduce la risoluzione delle immagini, semplifica gli oggetti vettoriali e ottimizza i font. È  un file piccolo di bassa qualità
+- **Compressione Estrema** : utilizza Ghostscript con parametri personalizzati forzando a 72 dpi le immagini, file minimo di bassissima qualità.
 - **Notifiche desktop**: lo script invia una notifica al vassoio di sistema con l'esito della compressione.
 
 ## Requisiti
