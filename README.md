@@ -43,4 +43,24 @@ o tramite Yast o a terminale
 ```bash
 sudo zypper install ghostscript libnotify-tools poppler-tools xsane
 ```
+## Installazione
+- Scarica il file zip
+- dai i permessi di lettura e scrittura ed eseguibilità col tasto dx del mouse alla voce proprietà
+- estrai il file
+- entra nella cartella creata
+- tasto destro all'interno della cartella
+- apri il terminale
+- dai i permessi al file con estensione sh (riduci-pdf.sh) usando il comando
+```bash
+chmod +x riduci-pdf.sh
+```
+- copia il file nella directory principale dell'utente
+- e crea un lanciatore sul desktop
 
+#### lanciatore su LinuxMint
+- tasto destro sul desktop --> crea lanciatore
+- nella finestra che si apre nella voce Tipo scegliere Applicazione nel terminale
+- alla voce nome date un nome che potrebbe essere "Riduci PDF"
+- in comando cliccate su sfoglia e cercate il file all'interno della directory principale, che dovresti aver copiato di nome "riduci-pdf.sh"
+- e se vuoi cambiare l'icona cliccagli sopra utilizza quella che ti piace di più, se per caso ti piace quella nella directory in "/Scaricati/riduci-pdf-main" utilizza quella
+#### lanciatore su OpenSuse
