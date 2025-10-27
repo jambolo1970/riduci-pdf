@@ -33,7 +33,7 @@ Qui invece come risolvere con lo script la compressione in 2 modalità
 - Vanno installati i driver del vostro scanner o Stampante multifunzione
 
 ### Installazione dei requisiti
-#### Su distribuzioni Debian-based (ad esempio, Ubuntu e Linux Mint):
+#### Su distribuzioni Debian-based (ad esempio, Ubuntu e Linux Mint) oppure e fa comodo in modo grafico utilizza il gestore dei pacchetti "synaptic":
 ```bash
 sudo apt update
 sudo apt install ghostscript libnotify-bin poppler-utils xsane
