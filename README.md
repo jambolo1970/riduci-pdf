@@ -64,3 +64,14 @@ chmod +x riduci-pdf.sh
 - in comando cliccate su sfoglia e cercate il file all'interno della directory principale, che dovresti aver copiato di nome "riduci-pdf.sh"
 - e se vuoi cambiare l'icona cliccagli sopra utilizza quella che ti piace di più, se per caso ti piace quella nella directory in "/Scaricati/riduci-pdf-main" utilizza quella
 #### lanciatore su OpenSuse
+- tasto destro sul desktop --> crea --> collegamento applicazione
+- nella finestra che si apre lingutta "Generale" si può inserire l'icona che piace, oppure utilizzare quella all'interno di "/Scaricati/riduci-pdf-main",
+- Cambia la descrizione generica con "Riduci PDF" o il nome che preferisci
+- Alla linguetta "Permessi" metti la spunta su "Eseguibile"
+- Nella linguetta "Applicazione" ci sono molte cose da fare
+- Nome : riporta il nome "Riduci PDF" o quello scelto
+- Descrizione : metti una descrizione se vuoi ad esempio "Come ridurre il pdf in automatico"
+- Programma : cliccate su sfoglia e cerca il file all'interno della directory principale, che dovresti aver copiato di nome "riduci-pdf.sh"
+- Percorso di lavoro :  puoi inserire /home/NOME_Utente oppure cliccare sull'icona a destra "apri finestra file" e cercare lo stesso percorso.
+- Infine clicca sul bottone "Opzioni avanzate" e spunta "Esegui nel terminale" e "Abilita notifica di avvio" poi dai OK
+- dai "OK" una seconda volta che si chiuderà la finesta di collegamento all'applicazione.
